@@ -2,4 +2,5 @@
 /about / 200
 /error / 404
 /cat / 403
-* / 404
+/dog / 403
+/* /index.html 200
