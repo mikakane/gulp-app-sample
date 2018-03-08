@@ -1,0 +1,22 @@
+#header{
+	@import "./media.scss";	
+}
+
+$color: blue;
+$gutter: 1px;
+
+body {
+	color: #333;
+
+	h1 {
+		margin-top: $gutter;
+		color: $color;
+	}
+}
+
+p{
+	margin-top: $gutter;
+	color: $color;	
+}
+
+
