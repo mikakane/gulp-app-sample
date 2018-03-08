@@ -11,6 +11,8 @@ gulp.task("hello2",()=>{
 gulp.task("images",()=>{
 	gulp.src("src/images/*.png")
 	.pipe(gulp.dest("dist/images/"))
+	gulp.src("src/_redirects")
+	.pipe(gulp.dest("dist/"))
 })
 
 
